@@ -1,1 +1,7 @@
 \\mac\home\documents\visual studio 2015\Projects\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe
+C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.pdb
+C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
+C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.exe
+C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.pdb

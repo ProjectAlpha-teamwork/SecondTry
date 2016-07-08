@@ -49,11 +49,18 @@
     <Compile Include="DrawableSports\DrawableSports.cs" />
     <Compile Include="Enumerations\DrawNotPossibleResults.cs" />
     <Compile Include="Enumerations\DrawPossibleResults.cs" />
+    <Compile Include="Interfaces\ILogable.cs" />
     <Compile Include="Interfaces\IMatch.cs" />
+    <Compile Include="Interfaces\IUserable.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="NotDrawableSports\NotDrawableSports.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Users\Gender.cs" />
+    <Compile Include="Users\Login.cs" />
+    <Compile Include="Users\Registration.cs" />
+    <Compile Include="Users\User.cs" />
+    <Compile Include="Users\Validation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
