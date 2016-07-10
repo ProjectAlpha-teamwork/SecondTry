@@ -1,0 +1,22 @@
+\\mac\home\documents\visual studio 2015\Projects\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+C:\Users\Todor\Documents\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+C:\Users\Todor\Documents\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
+C:\Users\Todor\Documents\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe
+C:\Users\Todor\Documents\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.pdb
+C:\Users\Todor\Documents\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.exe
+C:\Users\Todor\Documents\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.pdb
+C:\Users\Todor\Documents\Visual Studio 2015\Projects\OOP-1\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+C:\Users\Todor\Documents\Visual Studio 2015\Projects\OOP-1\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.exe
+C:\Users\Todor\Documents\Visual Studio 2015\Projects\OOP-1\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.pdb
+C:\Users\Todor\Documents\Visual Studio 2015\Projects\OOP-1\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe
+C:\Users\Todor\Documents\Visual Studio 2015\Projects\OOP-1\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.pdb
+C:\Users\Todor\Documents\Visual Studio 2015\Projects\OOP-1\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
+E:\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+E:\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.exe
+E:\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.pdb
+D:\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+D:\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.exe
+D:\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.pdb
+E:\C#OOP Teamwork\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+E:\C#OOP Teamwork\BetSystem\BetSystem\obj\Debug\BetSystem.exe
+E:\C#OOP Teamwork\BetSystem\BetSystem\obj\Debug\BetSystem.pdb

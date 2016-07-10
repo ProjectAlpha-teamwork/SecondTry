@@ -5,3 +5,6 @@ C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\bin\Debug
 C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
 C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.exe
 C:\Users\Georgi\Documents\GitHub\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.pdb
+E:\C#OOP Teamwork\SecondTry\Desktop\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
+E:\C#OOP Teamwork\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.exe
+E:\C#OOP Teamwork\SecondTry\Desktop\BetSystem\BetSystem\obj\Debug\BetSystem.pdb
