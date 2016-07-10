@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Users
 {
-   public  abstract class Validation
+   public static class Validation
     {
         public const string EmailPattern =
          @"^([0-9a-zA-Z]" +
@@ -34,5 +34,20 @@ namespace Users
             return Regex.IsMatch(input, pattern);
         }
 
+        public static void CheckIfDoubleIsInRange(double number, double max = double.MaxValue, double min = 1, string message = null)
+        {
+            if (number < min || max < number)
+            {
+                throw new ArgumentOutOfRangeException(message);
+            }
+        }
+
+        public static void CheckIfIntIsInRange(int number, int max = int.MaxValue, double min = 1, string message = null)
+        {
+            if (number < min || max < number)
+            {
+                throw new ArgumentOutOfRangeException(message);
+            }
+        }
     }
 }

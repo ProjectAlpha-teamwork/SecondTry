@@ -6,8 +6,9 @@
     using DrawableSports;
     using EventDeclarations;
     using Enumerations;
+    using Interfaces;
     using Bets;
-
+    using Users;
     class Program
     {
         static void PrintScoreEvent(object sender, ScoredEventArgs args)
@@ -86,9 +87,26 @@
             NoDrawBet betBulgariaPoland = new NoDrawBet(mBulgariaPoland, 150, "VolleyUniqueID", DrawNotPossibleResults.WinHome);
             //Events
             mBulgariaPoland.Scored += PrintScoreEvent;
-            mBulgariaPoland.Scored += betBulgariaPoland.CloseBetBeforeEnd;
-            mBulgariaPoland.ForcedEndOfMatch += PrintForcedEndOfMatchEvent;
-            mBulgariaPoland.ForcedEndOfMatch += betBulgariaPoland.CloseBetOnForcedEnd;
+            //mBulgariaPoland.Scored += betBulgariaPoland.CloseBetBeforeEnd;
+            //mBulgariaPoland.ForcedEndOfMatch += PrintForcedEndOfMatchEvent;
+            //mBulgariaPoland.ForcedEndOfMatch += betBulgariaPoland.CloseBetOnForcedEnd;
+
+            //var reg = new Registration("gosho", "Georgi", "Georgiev", "954751894864", 100, Gender.Male, "123456", "123456", "Sliven", new DateTime(1995, 5, 8));
+
+            var gosho = Login.SignIn("gosho", "123456");
+            IMatch goshoBetsOn = mBulgariaPoland;
+
+            if (goshoBetsOn is NotDrawableSports.NotDrawableSports)
+            {
+                NoDrawBet goshoBets = gosho.MakeBet(goshoBetsOn, 100, gosho.UserName, DrawNotPossibleResults.WinAway);
+                (goshoBetsOn as NotDrawableSports.NotDrawableSports).ForcedEndOfMatch += goshoBets.CloseBetOnForcedEnd;
+            }
+            else
+            {
+                DrawBet goshoBets = gosho.MakeBet(goshoBetsOn, 100, gosho.UserName, DrawPossibleResults.WinAway);
+                (goshoBetsOn as DrawableSports.DrawableSports).EndOfMatch += goshoBets.CloseBetAfterEnd;
+            }
+
             //simulate match
             mBulgariaPoland.MatchEventFollower();
         }

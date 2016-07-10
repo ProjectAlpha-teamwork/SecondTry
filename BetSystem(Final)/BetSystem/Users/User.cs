@@ -1,4 +1,7 @@
-﻿using BetSystem.Interfaces;
+﻿using BetSystem.Bets;
+using BetSystem.Interfaces;
+using BetSystem.Enumerations;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Users
 {
-    public class User : IUserable
+    public class User
     {
         private string userName;
         private string firstName;
@@ -216,12 +219,49 @@ namespace Users
             }
         }
 
-        //public void Bet(decimal ammount)
-        //{
-        //    this.Balance -= ammount;
+        private DrawNotPossibleResults ConvertStringToDrawNotPossible(string bet)
+        {
+            switch (bet)
+            {
+                case "1":
+                    return DrawNotPossibleResults.WinHome;
+                case "2":
+                    return DrawNotPossibleResults.WinAway;
+                default:
+                    throw new ArgumentException("Not a valid bet!");
+            }
+        }
 
-        //    //implement where does the money go after
-        //}
+        private DrawPossibleResults ConvertStringToDrawPossible(string bet)
+        {
+            switch (bet.ToLower())
+            {
+                case "1":
+                    return DrawPossibleResults.WinHome;
+                case "x":
+                    return DrawPossibleResults.Draw;
+                case "2":
+                    return DrawPossibleResults.WinAway;
+                case "12":
+                    return DrawPossibleResults.WinHomeorAway;
+                case "1x":
+                    return DrawPossibleResults.WinHomeOrDraw;
+                case "x2":
+                    return DrawPossibleResults.WinAwayOrDraw;
+                default:
+                    throw new ArgumentException("Not a valid bet!");
+            }
+        }
+
+        public DrawBet MakeBet(IMatch match, decimal betAmount, string uniqueID, DrawPossibleResults myBet)
+        {
+            return new DrawBet(match, betAmount, uniqueID, myBet);
+        }
+
+        public NoDrawBet MakeBet(IMatch match, decimal betAmount, string uniqueID, DrawNotPossibleResults myBet)
+        {
+            return new NoDrawBet(match, betAmount, uniqueID, myBet);
+        }
 
 
         public void Withdraw(decimal ammount)

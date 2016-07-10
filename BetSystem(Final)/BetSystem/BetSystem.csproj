@@ -51,22 +51,21 @@
     <Compile Include="Enumerations\DrawNotPossibleResults.cs" />
     <Compile Include="Enumerations\DrawPossibleResults.cs" />
     <Compile Include="EventDeclarations\MatchEvents.cs" />
-    <Compile Include="User\Gender.cs" />
+    <Compile Include="Users\Gender.cs" />
     <Compile Include="Interfaces\IBet.cs" />
     <Compile Include="Interfaces\IDrawableSports.cs" />
     <Compile Include="Interfaces\IMatch.cs" />
-    <Compile Include="User\Login.cs" />
+    <Compile Include="Users\Login.cs" />
     <Compile Include="Match.cs" />
     <Compile Include="NotDrawableSports\Box.cs" />
     <Compile Include="NotDrawableSports\NotDrawableSports.cs" />
     <Compile Include="NotDrawableSports\Volleyball.cs" />
-    <Compile Include="User\Program.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RandomGenerator.cs" />
-    <Compile Include="User\Registration.cs" />
-    <Compile Include="User\User.cs" />
-    <Compile Include="User\Validation.cs" />
-    <Compile Include="Validator.cs" />
+    <Compile Include="Users\Registration.cs" />
+    <Compile Include="Users\User.cs" />
+    <Compile Include="Users\Validation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

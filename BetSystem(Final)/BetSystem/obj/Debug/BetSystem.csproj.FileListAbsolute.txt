@@ -20,3 +20,9 @@ D:\Telerik\OOP-team project\SecondTry-master\SecondTry-master\Desktop\BetSystem\
 E:\C#OOP Teamwork\BetSystem\BetSystem\bin\Debug\BetSystem.exe.config
 E:\C#OOP Teamwork\BetSystem\BetSystem\obj\Debug\BetSystem.exe
 E:\C#OOP Teamwork\BetSystem\BetSystem\obj\Debug\BetSystem.pdb
+E:\C#OOP Teamwork\SecondTry\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.exe.config
+E:\C#OOP Teamwork\SecondTry\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.exe
+E:\C#OOP Teamwork\SecondTry\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.pdb
+E:\C#OOP Teamwork\SecondTry\BetSystem(Final)\BetSystem\obj\Debug\BetSystem.csprojResolveAssemblyReference.cache
+E:\C#OOP Teamwork\SecondTry\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.exe
+E:\C#OOP Teamwork\SecondTry\BetSystem(Final)\BetSystem\bin\Debug\BetSystem.pdb

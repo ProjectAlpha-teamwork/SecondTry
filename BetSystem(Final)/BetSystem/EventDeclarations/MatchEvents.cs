@@ -1,7 +1,7 @@
 ﻿namespace BetSystem.EventDeclarations
 {
     using System;
-
+    using Users;
     //EVENT DECLARATIONS
     public class MatchEventArgs : EventArgs
     {
@@ -31,7 +31,7 @@
             }
             set
             {
-                Validator.CheckIfDoubleIsInRange(value, 100, 0);
+                Validation.CheckIfDoubleIsInRange(value, 100, 0);
                 this.passedPartOfMatch = value;
             }
         }
